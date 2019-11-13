@@ -18,7 +18,7 @@ The only requirement to run this webserver locally is [Docker](https://docs.dock
 Command postgresql and influxdb may return failed,rerun command for postgresql and ignore influxdb. 
 #### Setup job monitor on galaxy welcome page:
     su - galaxy
-    vim /home/galaxy/galaxy/static
+    vim /home/galaxy/galaxy/static/welcome.html
 Find "iframe" element and set your IP.
 #### Start server:
     sh /home/galaxy/galaxy/run.sh
