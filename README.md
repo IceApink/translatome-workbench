@@ -10,10 +10,10 @@ The only requirement to run this webserver locally is [Docker](https://docs.dock
 #### Pull image:
     docker run -it -p 8080:8080 -p 2880:80 registry.eu-west-1.aliyuncs.com/sysuzoc/translatome:1.0
 #### Start related service:
-    service apache2 start
-    service influxdb start
-    service grafana-server start
-    service telegraf start
+    service apache2 restart
+    service influxdb restart
+    service grafana-server restart
+    service telegraf restart
     /etc/init.d/postgresql start
 Command postgresql and influxdb may return failed,rerun command for postgresql and ignore influxdb. 
 #### Setup job monitor on galaxy welcome page:
