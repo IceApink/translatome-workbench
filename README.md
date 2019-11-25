@@ -13,8 +13,8 @@ The only requirement to run this webserver locally is [Docker](https://docs.dock
 #### Start related service:
     service apache2 restart
     service influxdb restart   #For monitor(optional)
-    service grafana-server restart  #For monitor
-    service telegraf restart   #For monitor
+    service grafana-server restart  #For monitor(optional)
+    service telegraf restart   #For monitor(optional)
     /etc/init.d/postgresql start
 Command postgresql and influxdb may return failed,rerun command for postgresql and ignore influxdb. 
 #### Setup job monitor on galaxy welcome page:
