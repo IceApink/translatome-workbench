@@ -23,12 +23,16 @@ The size of the docker image is approximately 34GB,so make sure you have enough 
     service telegraf restart   #For monitor(optional)
     /etc/init.d/postgresql start
 Command postgresql and influxdb may return failed,rerun command for postgresql and ignore influxdb. 
-#### Setup job monitor on galaxy welcome page:
+#### Setup job monitor on galaxy welcome page:(optional)
     su - galaxy
     vim /home/galaxy/galaxy/static/welcome.html  #For monitor(optional)
 Find "<iframe>" element and set your IP.
 #### Start server:
     sh /home/galaxy/galaxy/run.sh
+    # Run backend
+    cd /home/galaxy/galaxy && 
+    nohup sh run.sh > galaxy.log 2>&1 &
+For more details,please visit: https://docs.galaxyproject.org/en/latest/admin/config.html
 #### Browser access to the server:
     http://YOUR_IP_ADDRESS:8080
 
