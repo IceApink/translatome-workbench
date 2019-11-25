@@ -12,17 +12,17 @@ The only requirement to run this webserver locally is [Docker](https://docs.dock
     docker run -it -p 8080:8080 -p 2880:80 registry.cn-hongkong.aliyuncs.com/sysuzoc/translatome:1.0
 #### Start related service:
     service apache2 restart
-    service influxdb restart
-    service grafana-server restart
-    service telegraf restart
+    service influxdb restart   #For monitor(optional)
+    service grafana-server restart  #For monitor
+    service telegraf restart   #For monitor
     /etc/init.d/postgresql start
 Command postgresql and influxdb may return failed,rerun command for postgresql and ignore influxdb. 
 #### Setup job monitor on galaxy welcome page:
     su - galaxy
-    vim /home/galaxy/galaxy/static/welcome.html
-Find "iframe" element and set your IP.
+    vim /home/galaxy/galaxy/static/welcome.html  #For monitor(optional)
+Find "<iframe>" element and set your IP.
 #### Start server:
     sh /home/galaxy/galaxy/run.sh
-### Browser access to the server:
-    http://YOURIP:8080
+#### Browser access to the server:
+    http://YOUR_IP_ADDRESS:8080
 
