@@ -8,8 +8,8 @@ The only requirement to run this webserver locally is [Docker](https://docs.dock
 ### Hardware:
 The size of the docker image is approximately 34GB,so make sure you have enough hard disk space.
 #### Recommand hardware:
-    CPU: 4 cores
-    RAM: 8GB
+    CPU:  4 cores
+    RAM:  8GB
     Disk: 100GB
 ## Running the Galaxy server:
 ### From the command line (Linux/Windows/MacOS):
