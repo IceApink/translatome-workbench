@@ -6,8 +6,11 @@ Translatome workbench is a web server for translatome related analysis,which can
 ## Requirements:
 The only requirement to run this webserver locally is [Docker](https://docs.docker.com/installation).Docker supports the three major desktop operating systems Linux, Windows and Mac OSX. Please refer to Docker installation [guideline](https://docs.docker.com/installation) for details.
 ### Hardware:
-The size of the docker image is approximately 34GB
-    
+The size of the docker image is approximately 34GB,so make sure you have enough hard disk space.
+#### Recommand hardware:
+    CPU: 4 cores
+    RAM: 8GB
+    Disk: 100GB
 ## Running the Galaxy server:
 ### From the command line (Linux/Windows/MacOS):
 #### Pull image
