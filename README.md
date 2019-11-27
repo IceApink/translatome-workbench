@@ -32,9 +32,13 @@ Command postgresql and influxdb may return failed,rerun command for postgresql a
 Find "<iframe>" element and set your IP.
 #### Start server:
     sh /home/galaxy/galaxy/run.sh
-##### Run backend:
+#### Run backend:
     cd /home/galaxy/galaxy && 
     nohup sh run.sh > galaxy.log 2>&1 &
+#### User and password
+    galaxy admin user: admin@admin.com
+    password: admin1234
+    The PostgreSQL username: galaxy, password: galaxy and the database name: galaxy
 For more details,please visit: https://docs.galaxyproject.org/en/latest/admin/config.html
 #### Browser access to the server:
     http://YOUR_IP_ADDRESS:8080
