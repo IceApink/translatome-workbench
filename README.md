@@ -38,7 +38,7 @@ Find "<iframe>" element and set your IP.
 #### User and password
     galaxy admin user: admin@admin.com
     password: admin1234
-    The PostgreSQL username: galaxy, password: galaxy and the database name: galaxy
+    The PostgreSQL username: galaxy, password: galaxy, database name: galaxy
 For more details,please visit: https://docs.galaxyproject.org/en/latest/admin/config.html
 #### Browser access to the server:
     http://YOUR_IP_ADDRESS:8080
