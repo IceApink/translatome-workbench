@@ -28,6 +28,7 @@ Command postgresql and influxdb may return failed,rerun command for postgresql a
 #### Setup job monitor on galaxy welcome page:(optional)
     su - galaxy
     vim /home/galaxy/galaxy/static/welcome.html  #For monitor(optional)
+    :/<iframe>                                   #For monitor(optional)
 Find "<iframe>" element and set your IP.
 #### Start server:
     sh /home/galaxy/galaxy/run.sh
