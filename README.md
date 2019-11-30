@@ -16,6 +16,8 @@ The size of the docker image is approximately 34GB,so make sure you have enough 
 #### Pull image
 ##### Asia:
     docker pull registry.cn-hongkong.aliyuncs.com/sysuzoc/translatome:1.0
+##### Europe:
+    docker pull registry.eu-west-1.aliyuncs.com/sysuzoc/translatome:1.0
 #### Run container:
     docker run -it -p 8080:8080 -p 2880:80 --name="translatome-workbench" registry.cn-hongkong.aliyuncs.com/sysuzoc/translatome:1.0
 #### Start related service:
