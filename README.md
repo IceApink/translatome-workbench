@@ -15,14 +15,14 @@ The size of the docker image is approximately 34GB,so make sure you have enough 
 ### From the command line (Linux/Windows/MacOS):
 #### Pull image
 
-    #Shen Zhen
+    
     docker pull registry.cn-shenzhen.aliyuncs.com/xiemzh/translatome
     
     
 #### Run container:
-    docker run -it -p 8080:8080 -p 2880:80 --name="translatome-workbench" registry.cn-hongkong.aliyuncs.com/sysuzoc/translatome
+    docker run -it -p 8080:8080 -p 3000:3000 --name="translatome-workbench" registry.cn-shenzhen.aliyuncs.com/xiemzh/translatome
 #### Start related service:
-    service apache2 restart
+    
     service influxdb restart        #For monitor(optional)
     service grafana-server restart  #For monitor(optional)
     service telegraf restart        #For monitor(optional)
