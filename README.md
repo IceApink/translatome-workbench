@@ -15,7 +15,7 @@ The size of the docker image is approximately 42GB, so make sure you have enough
     Disk: 100GB
 ## Running the Galaxy server:
 ### From the command line (Linux/Windows/MacOS):
-#### Pull image
+#### Pull image (Not open yet)
 
     
     docker pull registry.cn-shenzhen.aliyuncs.com/xiemzh/translatome
